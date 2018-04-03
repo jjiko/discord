@@ -1,0 +1,24 @@
+{
+  "name": "jjiko/discord",
+  "description": "Discord integration",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Joe Jiko",
+      "email": "me@joejiko.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jiko\\Discord\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": []
+    }
+  }
+}
